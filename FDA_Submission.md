@@ -54,13 +54,19 @@ First 17 layers of VGG pre-trained network
  Last convolutional layer and all fully-connected layers of the architecture.
 
 ![](/imgs/history.png)
+
 ![](/imgs/roc.png)
+
 ![](/imgs/pr.png)
 
 **Final Threshold and Explanation:**
+
 ![](/imgs/Accuracy.png)
+
 ![](/imgs/F1Score.png)
+
 ![](/imgs/Precision.png)
+
 ![](/imgs/Recall.png)
 
 The final threshold is chosen based on f1_score vs threshold curve. The threshold value that gives the maximum f1-score is chosen. It's 0.5 in our case.
@@ -83,13 +89,21 @@ This NIH Chest X-ray Dataset is comprised of 112,120 X-ray images with disease l
 -   OriginalImagePixelSpacing_y
 
 ![](/imgs/Numberofdiseases.png)
+
 ![](/imgs/Numberofdiseaseperpatient.png)
+
 ![](/imgs/PatientGender.png)
+
 ![](/imgs/PatientAge.png)
+
 ![](/imgs/ViewPosition.png)
+
 ![](/imgs/Follow-up.png)
+
 ![](/imgs/W.png)
+
 ![](/imgs/H.png)
+
 ![](/imgs/Mass_Size.png)
 
 **Description of Training Dataset:** 
