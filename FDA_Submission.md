@@ -61,6 +61,8 @@ First 17 layers of VGG pre-trained network
 
 **Final Threshold and Explanation:**
 
+The final threshold is chosen based on f1_score vs threshold curve. The threshold value that gives the maximum f1-score is chosen. It's 0.5 in our case.
+
 ![](/imgs/Accuracy.png)
 
 ![](/imgs/F1Score.png)
@@ -68,8 +70,6 @@ First 17 layers of VGG pre-trained network
 ![](/imgs/Precision.png)
 
 ![](/imgs/Recall.png)
-
-The final threshold is chosen based on f1_score vs threshold curve. The threshold value that gives the maximum f1-score is chosen. It's 0.5 in our case.
 
 ### 4. Databases
  Chest X-ray exams are one of the most frequent and cost-effective medical imaging examinations available. However, clinical diagnosis of a chest X-ray can be challenging and sometimes more difficult than diagnosis via chest CT imaging. The lack of large publicly available datasets with annotations means it is still very difficult, if not impossible, to achieve clinically relevant computer-aided detection and diagnosis (CAD) in real world medical sites with chest X-rays.
